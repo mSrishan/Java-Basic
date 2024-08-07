@@ -11,7 +11,7 @@ public class myFirstGame {
             for (int j = 0; j < 5; j++) {
                 System.out.print("Enter a number between 1 and 10 : ");
                 int uNumber = uInput.nextInt();
-                int rNumber = sNumber.nextInt(10);
+                int rNumber = sNumber.nextInt(10) + 1;
                 if (uNumber == rNumber) {
                     System.out.println("You have won the game");
                     break;
