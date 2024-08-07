@@ -20,6 +20,7 @@ public class myFirstGame {
                     System.out.println("The winning number is : " + rNumber);
                 }
             }
+            System.out.println("Game Over!");
         }
 
     }
