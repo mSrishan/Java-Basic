@@ -10,8 +10,9 @@ public class multiDArrays {
             for (int j = 0; j < 3; j++) {
                 System.out.print("Enter vehicle number " + (j + 1) + " : ");
                 capacity[i][j] = scan.nextInt();
-            }
 
+            }
+            System.out.println(capacity[i][0] + " " + capacity[i][1] + " " + capacity[i][2]);
         }
     }
 }
