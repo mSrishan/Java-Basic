@@ -5,6 +5,8 @@ public class methodOverloading {
 
         Employee emp1 = new Employee(23, "Srishan");
         System.out.println(emp1.name);
+
+        Employee emp2 = new Employee();
     }
 }
 
@@ -12,8 +14,12 @@ class Employee {
     int age;
     String name;
 
-    public Employee(int x, String y) {
-        age = x;
-        name = y;
+    public Employee(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    public Employee() {
+        System.out.println(".......................................... ");
     }
 }
